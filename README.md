@@ -1,4 +1,6 @@
+
 CLIP Image & Text Search API
+
 Welcome to the CLIP Image & Text Search API! This project is an exciting tool that lets you search for images using either text (like "A cute cat") or by uploading another image. It’s powered by a FastAPI backend that uses OpenAI's CLIP model and Pinecone vector search to deliver fast and accurate results. Paired with a sleek Streamlit frontend, it’s designed to be both powerful and user-friendly.
 
 Table of Contents
