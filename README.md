@@ -4,7 +4,9 @@ CLIP Image & Text Search API
 Welcome to the CLIP Image & Text Search API! This project is an exciting tool that lets you search for images using either text (like "A cute cat") or by uploading another image. It’s powered by a FastAPI backend that uses OpenAI's CLIP model and Pinecone vector search to deliver fast and accurate results. Paired with a sleek Streamlit frontend, it’s designed to be both powerful and user-friendly.
 
 Table of Contents
+
 What’s This Project About?
+
 Cool Features
 How It’s Organized
 What You’ll Need
@@ -14,11 +16,13 @@ Deploying It Online
 How to Use It
 Want to Help Out?
 License
-Get in Touch
+
 What’s This Project About?
+
 The CLIP Image & Text Search API is all about making image searching simple and smart. The backend, built with FastAPI, handles your search requests lightning-fast. It uses OpenAI’s CLIP model to turn text and images into something a computer can understand (embeddings), and Pinecone helps store and find them quickly. The Streamlit frontend gives you a clean, interactive way to try it out—whether you’re typing a description or uploading a picture.
 
 Cool Features
+
 Image-to-Image Search: Upload a photo and find others that look similar.
 Text-to-Image Search: Type "sunset beach" and see matching images.
 Pinecone Power: Stores and searches image data super efficiently.
@@ -27,6 +31,7 @@ FastAPI Backbone: A speedy API keeps everything running smoothly.
 Streamlit Interface: A slick, easy-to-use frontend for searching.
 Ready to Scale: Deploy it easily on platforms like Heroku or Render.
 How It’s Organized
+
 Here’s a peek at the project’s folder structure:
 
 image-processing-app/
@@ -49,6 +54,7 @@ image-processing-app/
 └── README.md               # You’re reading it!
 
 What You’ll Need
+
 Before you dive in, make sure you have:
 
 An operating system: Windows, macOS, or Linux.
@@ -60,6 +66,7 @@ Accounts for hosting services (like Heroku or Render).
 A Pinecone API key (sign up at pinecone.io to get one).
 
 Step-by-Step Setup Guide
+
 Let’s get this app up and running from scratch. Follow these steps carefully:
 
 1. Grab the Code
